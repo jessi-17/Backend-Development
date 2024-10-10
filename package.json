@@ -1,0 +1,11 @@
+{
+  "name": "backend-development",
+  "version": "1.0.0",
+  "description": "In this repo i will be sharing my backend development journey along with codes and notes .",
+  "main": "script(fundametals of javascript).js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

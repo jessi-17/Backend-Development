@@ -1,0 +1,7 @@
+Synchronous Javascript:
+1. executes code sequentially, one task at a time.
+2. each task wait for the previous one to finish before the next task can begin.
+
+Asynchronous javascript:
+1. allows task to run in the background, without blocking the execution of subsequent task.
+2. uses constructs like callbacks, sysnc/awaits to handle task that take time.
