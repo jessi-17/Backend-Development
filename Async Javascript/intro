@@ -2,6 +2,17 @@ Synchronous Javascript:
 1. executes code sequentially, one task at a time.
 2. each task wait for the previous one to finish before the next task can begin.
 
+simply saying jab tak ek task complete nah ho , dusra shuru nhi ho sakta.
+example:- 
+task a - 5 we will wait for 5 sec and then it will execute
+task b - 2
+task c - 15
+
+
 Asynchronous javascript:
 1. allows task to run in the background, without blocking the execution of subsequent task.
 2. uses constructs like callbacks, sysnc/awaits to handle task that take time.
+
+aur asynch mai matlab sarre task ek sath shuru kardo,jiska answer pehle aajaye uska jawaab dena
+
+total time taken would be less in the geiven example in synch it will be 23sec but in asynch it goes less upto 15 sec
