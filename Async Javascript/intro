@@ -16,3 +16,29 @@ Asynchronous javascript:
 aur asynch mai matlab sarre task ek sath shuru kardo,jiska answer pehle aajaye uska jawaab dena
 
 total time taken would be less in the geiven example in synch it will be 23sec but in asynch it goes less upto 15 sec
+thsings that we mostly use  to write asynchronou code is: 
+settimeout
+setinterval
+fetch
+xmlhttprequest
+promises
+axios
+all of these are used in asycnh code and for runingn this actually we use them with 
+callbacks
+ten catch
+async/await
+example:- 
+async function abcd(){
+    await fetch(``);
+}
+instead of .then we can just add await
+
+id not this then it is synchronous code
+ main motive is ke when we dont knwo how much time arequest to server gonna tke to reply to that request so we use asyn code to execute the rest of the code as it is but still when the request id done the output should be visible.
+
+
+setTimeout(callback,timeinms);
+here callback fucntion is the fucntion that runs after the serttimout given such asa after 10s the callback fucntion will execute
+
+
+keep in mind that js is not asynchronous
