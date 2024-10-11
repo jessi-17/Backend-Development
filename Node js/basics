@@ -1,0 +1,19 @@
+node is javascript runtime environment.
+we can not create backedn with javascript
+Ryan Dahl
+node js is used ro create server side web applications
+it is build on v8 google chrome engine it allow js to run on server side by compiling into machine code.
+it doesnot need to wit fro API to return data
+
+asynchrounous
+single threaded architecture
+scalable
+quick code execution
+compatibitlity
+
+
+
+what is npm:-
+
+node package manager
+npm is the world's largest software registry. Open source developers from every continent use npm to share and borrow packages, and many organizations use npm to manage private development as well.
